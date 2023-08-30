@@ -1,0 +1,19 @@
+def soma(a, b):
+    """
+    Soma dois números. teste
+
+    Args:
+        a: O primeiro número.
+        b: O segundo número.
+
+    Returns:
+        A soma dos dois números.
+    """
+    return a + b
+
+
+if __name__ == "__main__":
+    a = int(input("Digite o primeiro número: "))
+    b = int(input("Digite o segundo número: "))
+
+    print("A soma é", soma(a, b))
